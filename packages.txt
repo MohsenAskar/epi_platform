@@ -1,2 +1,4 @@
 build-essential
 liblapack-dev
+gcc
+g++
