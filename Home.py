@@ -16,7 +16,7 @@ def image_to_base64(image_path):
         return base64.b64encode(img_file.read()).decode('utf-8')
 
 # Load your image from a local path
-image_path = (r"C:\Users\mas082\OneDrive - UiT Office 365\Desktop\Introduce_Your_Self\cartoon.JPG")
+image_path = (r"utils/cartoon.JPG")
 # Get the base64 string of the image
 image_base64 = image_to_base64(image_path)
 
